@@ -1,0 +1,13 @@
+while(analog(#port) < ?) //ET sensor in use
+{
+    if(analog(#port) > ?); //line Follow sensor in use
+    { 
+       mav(#port, position);
+       mav(#port, position);
+    }
+    else
+    {
+       mav(#port, position);
+       mav(#port, position);
+    }  
+}  
